@@ -27,9 +27,9 @@ class ProfileInfo extends StatelessWidget {
               child: Text(
                 this.profileName,
                 style: TextStyle(
-                    fontSize: 20.0,
+                    fontSize: 25.0,
                     fontFamily: "Lato",
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
               margin: EdgeInsets.only(left: 40.0, top: 35.0),
@@ -43,7 +43,7 @@ class ProfileInfo extends StatelessWidget {
               child: Text(
                 this.profileEmail,
                 style:
-                    TextStyle(fontWeight: FontWeight.w100, color: Colors.white),
+                    TextStyle(fontWeight: FontWeight.w400, color: Colors.white),
               ),
               margin: EdgeInsets.only(left: 40.0, right: 20.0),
             ),
@@ -58,7 +58,7 @@ class ProfileInfo extends StatelessWidget {
         children: [imageContainer, profileInfo],
         crossAxisAlignment: CrossAxisAlignment.start,
       ),
-      height: 200.0,
+      height: 100.0,
       margin: EdgeInsets.only(top: 80.0, left: 30.0),
     );
 
